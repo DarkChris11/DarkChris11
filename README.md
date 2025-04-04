@@ -2,18 +2,12 @@
 
 ```python
 class DarkChris11:
-    """
-    Clase que representa a DarkChris11, un desarrollador apasionado con un toque de humor.
-    """
+
 
     def __init__(self):
         self.nombre = "DarkChris11"
         self.educacion = ["Grado Superior en ASIR", "Especialización en Inteligencia Artificial y Big Data"]
         self.habilidades = ["Python", "JavaScript", "C++", "React", "Django", "MySQL", "PostgreSQL"]
-        self.proyectos = {
-            "Proyecto 1": "Descripción breve del proyecto 1",
-            "Proyecto 2": "Descripción breve del proyecto 2"
-        }
         self.contacto = {
             "LinkedIn": "https://www.linkedin.com/in/darkchris11/",
             "Twitter": "https://twitter.com/DarkChris11",
@@ -21,9 +15,6 @@ class DarkChris11:
         }
     
     def descripcion(self):
-        """
-        Método que describe a DarkChris11.
-        """
         descripcion = f"""
         ¡Hola! Soy {self.nombre}, un desarrollador con un Grado Superior en Administración de Sistemas Informáticos en Red (ASIR) 
         y una especialización en Inteligencia Artificial y Big Data. Me encanta hacer proyectos y explorar nuevas tecnologías.
@@ -31,9 +22,6 @@ class DarkChris11:
         return descripcion
     
     def mostrar_habilidades(self):
-        """
-        Método que muestra las habilidades de DarkChris11.
-        """
         habilidades = ", ".join(self.habilidades)
         return f"Habilidades: {habilidades}"
     
@@ -45,9 +33,6 @@ class DarkChris11:
         return f"Proyectos:\n{proyectos}"
     
     def mostrar_contacto(self):
-        """
-        Método que muestra los detalles de contacto de DarkChris11.
-        """
         contacto = "\n".join([f"{k}: {v}" for k, v in self.contacto.items()])
         return f"Contacto:\n{contacto}"
 
